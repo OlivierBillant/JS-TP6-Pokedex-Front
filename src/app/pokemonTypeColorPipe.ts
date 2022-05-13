@@ -9,9 +9,9 @@ export class PokemonTypeColorPipe implements PipeTransform {
 
         switch(type){
             case "PLANTE" : classColor = "chip green lighten-2 white-text"; break;
-            case "FEU" : classColor = "chip red darken-2 white-text"; break;
+            case "FEU" : classColor = "chip red darken-1 white-text"; break;
             case "EAU" : classColor = "chip blue darken-2 white-text"; break;
-            case "VOL" : classColor = "chip blue lighten-2 white-text"; break;
+            case "VOL" : classColor = "chip blue lighten-4 white-text"; break;
             case "POISON" : classColor = "chip deep-purple lighten-2 white-text"; break;
         }
         return classColor;
